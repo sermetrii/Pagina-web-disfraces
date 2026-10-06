@@ -1,72 +1,39 @@
-```css
 html {
-    background: white;
-}
+	background: white;
+	}
+	
 
 body {
-    margin: 140px auto 500px auto;
-    background: #fffec2;
-    width: min(700px, 85%);
-    padding: 30px 40px 50px 40px;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-sizing: border-box;
+	margin-top: 140px;
+	margin-left: 600px;
+	background: #fffec2;
+	margin-right: 810px;
+	margin-bottom: 500px;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	border: 2px solid black;
+	border-radius: 10px;
 }
 
 h2, h4 {
-    font-family: Verdana, sans-serif;
+	font-family: verdana;
 }
-
 button {
-    background: #c2e6fd;
-    padding: 1.5%;
-    border-radius: 5px;
+	background: #c2e6fd;
+	padding: 1.5%;
+	border-radius: 5px;
 }
-
 .nombre {
-    margin-left: 79px;
+	margin-left: 79px;
 }
-
 .email {
-    margin-left: 93px;
+	margin-left: 93px;
 }
 
 h4 {
-    margin-top: 5%;
+	margin-top: 5%;
 }
-
 h2 {
-    margin-bottom: 5%;
+	margin-bottom: 5%;
 }
-
-/* Adaptación para móviles */
-@media (max-width: 600px) {
-    body {
-        margin: 20px auto;
-        width: 92%;
-        padding: 20px;
-    }
-
-    .nombre,
-    .email {
-        margin-left: 0;
-    }
-
-    input {
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-
-    button {
-        padding: 10px 15px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    h4 {
-        font-size: 16px;
-    }
-}
-```
