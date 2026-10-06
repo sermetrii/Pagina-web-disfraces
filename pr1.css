@@ -1,0 +1,39 @@
+html {
+	background: white;
+	}
+	
+
+body {
+	margin-top: 140px;
+	margin-left: 600px;
+	background: #fffec2;
+	margin-right: 810px;
+	margin-bottom: 500px;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+h2, h4 {
+	font-family: verdana;
+}
+button {
+	background: #c2e6fd;
+	padding: 1.5%;
+	border-radius: 5px;
+}
+.nombre {
+	margin-left: 79px;
+}
+.email {
+	margin-left: 93px;
+}
+
+h4 {
+	margin-top: 5%;
+}
+h2 {
+	margin-bottom: 5%;
+}
