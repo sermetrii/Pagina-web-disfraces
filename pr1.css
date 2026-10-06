@@ -37,3 +37,19 @@ h4 {
 h2 {
 	margin-bottom: 5%;
 }
+@media (max-width: 600px) {
+    body {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .nombre,
+    .email {
+        margin-left: 0;
+    }
+
+    input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
